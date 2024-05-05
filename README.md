@@ -1,1 +1,1 @@
-# brochure
+# CharityManagerBrochurePage
