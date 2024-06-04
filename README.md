@@ -1,3 +1,2 @@
-# ARCHIVED: CharityManagerBrochurePage
+CharityManagerBrochurePage
 
-Moved to https://github.com/charity-manager/brochure
