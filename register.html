@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Charity Manager CRM</title>
+
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/Venobox/venobox.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <style>
+    .pricing-table ul {
+      list-style-type: none;
+      padding: 0;
+
+    }
+  
+    .pricing-table ul li {
+      position: relative;
+      padding-left: 25px;
+      float:left;
+      margin-bottom: 10px;
+    }
+    .pricing-table ul li:before {
+      content: "\f058"; /* FontAwesome check-circle icon */
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      position: absolute;
+      left: 0;
+      color: green;
+    }
+    .faq-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .faq-question {
+      background: #f7f7f7;
+      padding: 15px;
+      cursor: pointer;
+      border: 1px solid #ddd;
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .faq-answer {
+      display: none;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-top: none;
+    }
+    .faq-question.active .fas {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+
+<body>
+  
+
+<!-- navigation -->
+<section class="fixed-top navigation">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html"><img src="images/logo-w.png" style="width:50%" alt="logo"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- navbar -->
+      <div class="collapse navbar-collapse text-center" id="navbar">
+        <ul class="navbar-nav ml-auto">
+       
+         
+       
+        </ul>
+        <a href="register.html" class="btn btn-primary ml-lg-3 primary-shadow">Try Free</a>
+        <a href="login.html" class="btn btn-info ml-lg-3 primary-shadow">Login</a>
+      </div>
+    </nav>
+  </div>
+</section>
+<!-- /navigation -->
+<!-- Singup -->
+<section class="section-lg contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-title">Register your Organisation</h2>
+            </div>
+        </div>
+        <div class="row contact-bg p-5 rounded mb-5">
+            <div class="col-lg-7 mb-4 mb-lg-0">
+                <form action="#">
+                  <input type="text" class="form-control mb-3" id="ogname" name="ogname" placeholder="Organization Name" required>
+                  <input type="text" class="form-control mb-3" id="fname" name="fname" placeholder="First Name" required>
+                    <input type="text" class="form-control mb-3" id="lname" name="lname" placeholder="Last Name" required>
+                    <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Your Email" required>
+                    <input type="number" class="form-control mb-3" id="phone" name="phone" placeholder="Your Phone Number" required>
+            
+                  <input type="checkbox" name="check" value="yes"> I agree to Charity Manager's <A href="terms-conditions.html">Terms and Conditions</A>
+                    <button type="submit" value="send" class="btn btn-secondary">Sign Me Up</button>
+                </form>
+            </div>
+            <div class="col-lg-5"> 
+              <img src="images/logo-w.png">
+              <img src="images/sign.png">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <div class="card p-4 border-blue">
+          <img href="images/logo-w.png">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <div class="card p-4 border-blue">
+                   
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <div class="card p-4 border-blue">
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- background shapes -->
+    <img class="contact-bg-1 up-down-animation" src="images/background-shape/feature-bg-2.png" alt="background-shape">
+    <img class="contact-bg-2 left-right-animation" src="images/background-shape/green-half-cycle.png" alt="background-shape">
+    <img class="contact-bg-3 up-down-animation" src="images/background-shape/green-dot.png" alt="background-shape">
+    <img class="contact-bg-4 left-right-animation" src="images/background-shape/service-half-cycle.png" alt="background-shape">
+    <img class="contact-bg-5 up-down-animation" src="images/background-shape/feature-bg-2.png" alt="background-shape">
+</section>
+<!-- /signup -->
+
+<!-- footer -->
+<footer class="footer-section footer" style="background-image: url(images/backgrounds/footer-bg.png);">
+  <div class="container">
+    <div class="row">
+      <!-- Logo Column -->
+      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+        <a href="index.html">
+          <img class="img-fluid" src="images/logo-w.png" alt="logo">
+        </a>
+      </div>
+      <!-- Policies Column -->
+      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+        <h4>Policies</h4>
+        <ul style="list-style: none; padding: 0;">
+          <li><a style="color:black;font-size:15px;" href="terms.html">Terms & Conditions</a></li>
+          <li><a style="color:black;font-size:15px;" href="privacy.html">Privacy Policy</a></li>
+          <li><a style="color:black;font-size:15px;" href="cookies.html">Cookies Policy</a></li>
+        </ul>
+      </div>
+      <!-- Contact Column -->
+      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+        <h4>Contact</h4>
+        <p><a style="color:black;font-size:15px;" href="mailto:info@elasticmint.com"> <i class="fa fa-envelope"></i> info@elasticmint.com</a></p>
+      </div>
+    </div>
+  </div>
+  <div> <br>
+    <center><p>© 2024 Elastic CAFNP Manager Ltd, 14a Forest Gate, Chippenham, Wiltshire, England, SN15 3RS
+      Powered by Elastic Mint</p></center>
+  </div>
+</footer>
+<!-- /footer -->
+
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- venobox -->
+<script src="plugins/Venobox/venobox.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
